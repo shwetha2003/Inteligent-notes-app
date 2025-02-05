@@ -3,10 +3,8 @@ import nltk
 import nltk
 nltk.download()
 
-# Ensure the correct NLTK data path
 nltk.data.path.append("C:\\Users\\rajan\\AppData\\Roaming\\nltk_data")
 
-# Download necessary NLTK resources
 nltk.download('punkt')
 nltk.download('stopwords')
 
